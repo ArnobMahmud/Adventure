@@ -142,3 +142,29 @@ nav ul li a{
     background-color: transparent;
     border: 2px solid white;
 }
+.justify-center{
+    justify-content: center;
+}
+.quote{
+    padding: 30px 0px;
+    background-color: #f4f5f9;
+}
+.left{
+    width: 25%;
+    flex: 0 0 auto;
+}
+
+.left img{
+    max-width: 70%;
+}
+
+.right{
+    width: 40%;
+    flex: 0 0 auto;
+}
+
+.right p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+}
