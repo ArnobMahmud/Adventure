@@ -53,6 +53,7 @@ h4 {
   background-image: url(../images/banner.webp);
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: cover;
 }
 .banner-overlay {
   background-color: #7273816b;
