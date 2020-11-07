@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
 
 * {
   margin: 0;
@@ -32,6 +33,9 @@ h1,h2,h3,h4{
 }
 .align-center{
     align-items: center;
+}
+.justify-center{
+    justify-content: center;
 }
 .banner {
   background-image: url(../images/banner.webp);
@@ -71,8 +75,16 @@ nav ul{
 nav ul li a{
     padding: 10px 20px;
     color: white;
-    font-size: 20px;
+    font-size: 10px 15px;
     font-weight: 500;
+    border: 2px solid transparent;
+    transition-duration: 0.3s;
+}
+
+nav ul li a:hover{
+    border: 2px solid white;
+    border-radius: 30px;
+
 }
 
 .button{
@@ -92,7 +104,7 @@ nav ul li a{
 
 .button :hover{
     background-color: #fb2056;
-    border: none;
+    border: 2px solid transparent;
 }
 .banner-content{
     text-align: center;
@@ -101,9 +113,8 @@ nav ul li a{
 
 .banner-content h3{
     color: white;
-    font-size: 20px;
-    padding-bottom: 5px;
-    font-style: italic;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .underline{
@@ -111,13 +122,14 @@ nav ul li a{
     height: 2px;
     background-color: #fb2056;
     margin: auto;
+    margin-top: 10px;
 }
 
 .banner-content h1{
     font-size: 60px;
     color: white;
     padding: 20px 0px;
-    letter-spacing: 1.2;
+    letter-spacing: 3px;
 }
 
 .banner-button {
@@ -132,6 +144,7 @@ nav ul li a{
     padding: 10px 30px;
     color: white;
     background-color: transparent;
+    border: 2px solid transparent;
     border-radius: 30px;
     background-color: #fb2056;
     font-family: 'Ubuntu', sans-serif;
@@ -142,9 +155,7 @@ nav ul li a{
     background-color: transparent;
     border: 2px solid white;
 }
-.justify-center{
-    justify-content: center;
-}
+
 .quote{
     padding: 30px 0px;
     background-color: #f4f5f9;
@@ -165,6 +176,100 @@ nav ul li a{
 
 .right p{
     text-align: center;
+    font-style: italic;
     font-size: 18px;
-    line-height: 1.4;
+}
+
+.right p span{
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.events{
+    padding: 100px 0px 80px;
+}
+
+.events-content{
+    text-align: center;
+}
+
+.events-content h1{
+    text-transform: uppercase;
+}
+
+.events-image{
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 0 0 gray;
+}
+.events-image img{
+    max-width: 100%;
+    height: 400px;
+}
+.events-image h3{
+    padding: 30px 0px;
+    text-transform: uppercase;
+}
+.events-image p{
+    padding-bottom: 20px;
+    color: rgb(107, 107, 107);
+}
+
+.button2 a{
+    display: inline-block;
+    padding: 10px 15px ;
+    color: #fb2056;
+    text-transform: uppercase;
+    list-style-position: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+.button2 .arrow{
+    color: blueviolet;
+}
+.button2 a:hover{
+    border: 2px solid#fb2056;
+    border-radius: 30px;
+}
+.explore{
+    background-image: url(../images/bottom-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.explore-overlay{
+    background-color: #2c27274d;
+}
+
+.explore-content{
+    padding: 200px 0px;
+    width: 50%;
+    margin-left: auto;
+}
+
+
+.explore-content h1{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.explore-underline{
+    width: 5%;
+    height: 2px;
+    background-color: #fb2056;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.explore-content p{
+    padding: 20px 0px;
+    color: white;
 }
