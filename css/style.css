@@ -82,9 +82,9 @@ nav ul {
 }
 
 nav ul li a {
-  padding: 10px 15px;
+  padding: 10px 20px;
   color: #edf8fc;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   border: 2px solid transparent;
   transition-duration: 0.5s;
