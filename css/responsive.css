@@ -1,17 +1,218 @@
+@media (max-width: 1399px) {
+  .container {
+    width: 1100px;
+  }
+}
+
 @media (max-width: 1199px) {
-  section {
-    width: 800px;
+  .container {
+    width: 900px;
+  }
+  .button {
+    padding: 0px 0px;
+  }
+  nav ul li a {
+    padding: 10px 14px;
+    color: #edf8fc;
+    font-size: 15px;
+  }
+  banner-content h3 {
+    font-size: 20px;
+  }
+  .banner-content h1 {
+    font-size: 45px;
+  }
+  .banner-button {
+    padding: 14px 0px;
+  }
+  .left img {
+    max-width: 60%;
+  }
+  .right p {
+    font-size: 14px;
+  }
+  .events {
+    padding: 80px 0px 80px;
+  }
+  .bottom-banner-content h1 {
+    font-size: 50px;
+  }
+
+  .tour-content p {
+    font-size: 15px;
+  }
+  .copyright {
+    font-size: 12px;
   }
 }
 
 @media (max-width: 991px) {
   .container {
-    width: 945px;
+    width: 740px;
+  }
+  .logo {
+    width: 20%;
+  }
+  .button {
+    display: none;
+  }
+  nav {
+    width: 75%;
+  }
+  .banner-content h1 {
+    font-size: 30px;
+  }
+  .banner-content h3 {
+    font-size: 18px;
+  }
+  .banner-button a {
+    padding: 10px 20px;
+  }
+  .banner-content {
+    padding: 100px 0px;
+  }
+  .quote {
+    padding: 15px 0px;
+  }
+  .left img {
+    max-width: 40%;
+  }
+  .right {
+    width: 45%;
+  }
+  .events-image img {
+    height: 325px;
+  }
+  .events {
+    padding: 40px 0px 40px;
+  }
+  .bottom-banner-content {
+    padding: 140px 0px;
+  }
+  .bottom-banner-content h1 {
+    font-size: 30px;
+  }
+  .tour-content h1 {
+    font-size: 20px;
+  }
+  .copyright {
+    font-size: 10px;
   }
 }
 
 @media (max-width: 767px) {
+  .container {
+    width: 500px;
+  }
+  .logo {
+    width: 100%;
+    padding: 20px 0px;
+  }
+  nav {
+    width: 100%;
+  }
+  .banner-button {
+    padding: 10px 0px;
+  }
+  .banner-button a {
+    padding: 10px 15px;
+  }
+  .banner-content {
+    padding: 70px 0px;
+  }
+  .right p span {
+    font-size: 15px;
+    padding: 10px 0px;
+  }
+
+  .events-image {
+    width: 95%;
+  }
+
+  .bottom-banner-content {
+    padding: 50px 0px;
+  }
+  .tour-content {
+    width: 100%;
+    padding: 30px;
+  }
+  .tour-images {
+    width: 100%;
+    padding: 30px;
+  }
+  .copyright {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 599px) {
+  .container {
+    width: 335px;
+  }
+  nav {
+    width: 85%;
+  }
+  .banner-content h1 {
+    font-size: 20px;
+  }
+  .banner-content h3 {
+    font-size: 14px;
+  }
+  .right p {
+    font-size: 12px;
+  }
+  .left img {
+    max-width: 80%;
+  }
+  .events {
+    padding: 15px 0px;
+  }
+  .events-image {
+    width: 100%;
+  }
+  .events-image h3 {
+    padding: 10px 0px;
+    text-transform: uppercase;
+  }
+  .button2 a {
+    padding: 10px;
+    font-size: 11px;
+  }
+  .events-content h1 {
+    font-size: 20px;
+  }
+  .events-image p {
+    padding-bottom: 10px;
+  }
+  .events-image {
+    padding: 20px 0px;
+  }
+  .bottom-banner-content h1 {
+    font-size: 18px;
+  }
+  .bottom-banner-content {
+    padding: 16px 0px;
+  }
+  .bottom-banner-content p {
+    padding: 10px 0px;
+    color: white;
+    font-size: 15px !important;
+  }
+  .button2 a {
+    padding: 10px;
+    font-size: 10px;
+  }
+  .tour-content h1 {
+    font-size: 16px;
+  }
+  .tour-content {
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .tour-content p {
+    font-size: 12px;
+  }
+  .tour-images {
+    padding: 0px;
+  }
 }

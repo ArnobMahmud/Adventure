@@ -73,7 +73,7 @@ header {
 }
 
 nav {
-  width: 60%;
+  width: 65%;
   flex: 0 0 auto;
 }
 
@@ -96,13 +96,13 @@ nav ul li a:hover {
 }
 
 .button {
-  width: 20%;
+  width: 15%;
   flex: 0 0 auto;
-  padding: 0px 20px;
+  padding: 0px 15px;
 }
 .button a {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 10px 20px;
   color: white;
   background-color: transparent;
   border-radius: 30px;
