@@ -158,6 +158,7 @@
   }
   .banner-content h1 {
     font-size: 20px;
+    padding: 20px 0px;
   }
   .banner-content h3 {
     font-size: 14px;
@@ -190,9 +191,13 @@
   }
   .events-image p {
     padding-bottom: 10px;
+    font-size: 14px;
   }
   .events-image {
     padding: 20px 0px;
+  }
+  .events-image img {
+    object-fit: cover;
   }
   .bottom-banner-content h1 {
     font-size: 18px;
@@ -203,7 +208,7 @@
   .bottom-banner-content p {
     padding: 10px 0px;
     color: white;
-    font-size: 15px !important;
+    font-size: 9px;
   }
   .button2 a {
     padding: 10px;
